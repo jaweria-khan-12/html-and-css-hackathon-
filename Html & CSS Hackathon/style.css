@@ -1,0 +1,186 @@
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+.text-1{
+    margin-left: -55px !important; 
+}
+
+.image-1{
+    margin-left: 350px;
+}
+
+.colour{
+    background-color: #F5F7FA;
+}
+
+.logos{
+    margin-left: 80px;
+}
+
+.logos-1{
+    margin-left: 150px;
+}
+
+.logos-2{
+    margin-left: 150px;
+}
+
+.logos-3{
+    margin-left: 120px;
+}
+
+.logos-4{
+    margin-left: 150px;
+}
+
+.logos-5{
+    margin-left: 150px;
+}
+
+.logos-6{
+    margin-left: 150px;
+}
+
+.image-2{
+    margin-left: -120px;
+}
+
+.heading-2{
+    display: flex;
+    flex-direction: column ;
+}
+
+.card{
+    background-color: #F5F7FA !important;
+    border: none !important;
+}
+
+.mgap{
+    margin-left: 50px;
+}
+
+.button{
+    margin-left: 600px;
+    margin-top: -40px;
+    background-color: transparent !important;
+    color: green !important;
+    border: none !important;
+}
+
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.footer-section {
+  flex: 1 1 200px;
+}
+
+.footer-section h3,
+.footer-section h4 {
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 5px 0;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+  color: #f4a261;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+    body {
+      /* background-color: lightblue; */
+    }
+
+  
+  }
+
+  
+  /* Small devices (tablets, 576px and up) */
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    body {
+      background-color: lightgreen;
+    }
+
+    
+  }
+
+
+  
+  /* Medium devices (desktops, 768px and up) */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    body {
+      background-color: lightcoral;
+    }
+
+    
+  }
+ 
+
+  /* Large devices (large desktops, 992px and up) */
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    body {
+      /* background-color: lightgoldenrodyellow; */
+    }
+
+  
+  }
+
+  
+  /* Extra large devices (1200px and up) */
+  @media (min-width: 1200px) {
+    body {
+      background-color: lightgray;
+    }
+
+  }
+
+  /* Responsive Styles */
+@media (max-width: 768px) {
+
+  .footer-container {
+     flex-direction: column;
+     align-items: center;
+     gap: 20px;
+ }
+
+ .footer-section {
+     text-align: center;
+     margin-bottom: 20px;
+ }
+
+ .footer-bottom {
+     font-size: 12px;
+ } 
